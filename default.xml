@@ -279,7 +279,7 @@
   <!-- project path="frameworks/ml" name="platform/frameworks/ml" groups="pdk-cw-fs" /> -->
   <!-- project path="frameworks/multidex" name="platform/frameworks/multidex" groups="pdk-cw-fs" /> -->
   <project path="frameworks/native" name="android_frameworks_native" remote="omnirom" revision="android-6.0" groups="pdk" />
-  <project path="frameworks/native-caf" name="android_frameworks_native-caf" remote="omnirom" revision="android-6.0" groups="pdk" />
+  <!-- project path="frameworks/native-caf" name="android_frameworks_native-caf" remote="omnirom" revision="android-6.0" groups="pdk" /> -->
   <!-- project path="frameworks/opt/bitmap" name="platform/frameworks/opt/bitmap" /> -->
   <!-- project path="frameworks/opt/bluetooth" name="platform/frameworks/opt/bluetooth" groups="pdk-cw-fs" /> -->
   <!-- project path="frameworks/opt/calendar" name="platform/frameworks/opt/calendar" groups="pdk-cw-fs" /> -->
