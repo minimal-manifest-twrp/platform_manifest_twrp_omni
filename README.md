@@ -1,35 +1,17 @@
 ## Submitting Patches ##
 ------------------
-To prevent missue of gerrit - yes unfortunately there are poeple
-out there that do such things - it is required to be registered as
-contributor to submit changes. So if you want to submit patches
-contact us by email to <admin@omnirom.net> with your gerrit
-username and/or email so we can add you to this group.
+Our project is open source, and patches are always welcome!
+You can send patches by using:
 
-Our ROM is open source, and patches are always welcome!
-You can send patches by using these commands:
+Pull request, right here on git.
 
-    cd <project>
-    <make edits>
-    git add -A
-    git commit -m "commit message"
-    git push ssh://<username>@gerrit.omnirom.org:29418/<project> HEAD:refs/for/android-10
-
-Register at <gerrit.omnirom.org> and use the username that you registered there in the above command
-
-Commit your patches in a single commit. Squash multiple commit using this command: git rebase -i HEAD~<# of commits>
-
-If you are going to make extra additions, just repeat steps (Don't start a new patch), but instead of git commit -m
-use git commit --amend. Gerrit will recognize it as a new patchset.
-
-To view the status of your and others patches, visit [OmniROM Code Review](https://gerrit.omnirom.org)
-
+Contact @lj50036 on irc, Network: freenode, Channel: #twrp
 
 ## Maintaining Authorship ##
 ----------------------
 Maintaining authorship is a very important aspect of working with Open Source code. If you wish to submit a patch/fix
 from anywhere else (another ROM, project, etc.), it is imperative that you maintain the ownership of the person whose
-work you are seeking to include. Doing so will ensure that credit is given where it is deserved, and the [prinicples of open source](http://opensource.org/docs/osd)
+work you are seeking to include. Doing so will ensure that credit is given where it is deserved, and the [principles of open source](http://opensource.org/docs/osd)
 are upheld. Your contribution to the project will still be recognized as you will forever be listed as the committer.
 
 If you manually cherry pick a patch/fix then you will need to add the original author prior to pushing to our [gerrit](https://gerrit.omnirom.org).
@@ -40,7 +22,7 @@ after you type in `git commit -a` , type in the commit message and save. You wou
 git commit --amend --author "Author <email@address.com>"
 ```
 
-So it should look like this once you get all of the author's information
+So it should look like this once you get all of the author's information:
 
 ```bash
 git commit --amend --author "Spencer McGillicuddy <spencer.the.bestest@gmail.com>"
@@ -59,33 +41,25 @@ let me fix it because I was found out!" message.
 ## Getting Started ##
 ---------------
 
-To get started with OmniROM, you'll need to get
+To get started with OMNI sources to build TWRP, you'll need to get
 familiar with [Git and Repo](https://source.android.com/source/using-repo.html).
 
-To initialize your local repository using the OmniROM trees, use a command like this:
+To initialize your local repository using the OMNIROM trees to build TWRP, use a command like this:
 
-    repo init -u git://github.com/omnirom/android.git -b android-10
+    repo init -u git://github.com/minimal-manifest-twrp/platform_manifest_twrp_omni.git -b twrp-9.0
+
+To initialize a shallow clone, which will save even more space, use a command like this:
+
+    repo init --depth=1 -u git://github.com/minimal-manifest-twrp/platform_manifest_twrp_omni.git -b twrp-9.0
 
 Then to sync up:
 
     repo sync
 
-Then to build:
+Then to build for a device with recovery partition:
 
-     cd <source-dir>; . build/envsetup.sh; brunch <device_name>
+     cd <source-dir>; export ALLOW_MISSING_DEPENDENCIES=true; . build/envsetup.sh; lunch omni_<device>-eng; mka recoveryimage
 
-## Private Repositories ##
----------------
+Then to build for a device without recovery partition:
 
-The repositories in omni-private are only accessible to registered users
-So if you want to use those please contact us by email to <admin@omnirom.net>
-with a short description what you want to use them for. Send us your github
-account then we can add you to the group that has read access to those
-repositories.
-
-Changes to those repositories are still accessible on gerrit
-
-You can also build without those repositories if you dont need or
-want the features that are in them. In that case simply remove the include
-
-    <include name="omni-private.xml" />
+     cd <source-dir>; export ALLOW_MISSING_DEPENDENCIES=true; . build/envsetup.sh; lunch omni_<device>-eng; mka bootimage
