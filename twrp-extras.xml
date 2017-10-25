@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+    <remote name="TeamWin"
+            fetch="https://github.com/TeamWin"
+            review="https://gerrit.twrp.me" />
+
+<!-- TWRP lives in omnirom android-9.0 (not AOSP!) -->
+    <remove-project name="platform/bootable/recovery"/>
+    <project path="bootable/recovery" name="android_bootable_recovery" remote="omnirom" revision="android-9.0"/>
+
+<!-- Include external Magisk repo for repack binaries -->
+    <project path="external/magisk-prebuilt" name="external_magisk-prebuilt" remote="TeamWin" revision="master" />
+</manifest>
+
