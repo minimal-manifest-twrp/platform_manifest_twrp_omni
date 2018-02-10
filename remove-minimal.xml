@@ -4,16 +4,24 @@
   <remove-project name="android_art" />
   <remove-project name="android_dalvik" />
   <remove-project name="android_development" />
+  <remove-project name="android_external_aac" />
+  <remove-project name="android_external_dnsmasq" />
   <remove-project name="android_external_doclava" />
   <remove-project name="android_external_flac" />
   <remove-project name="android_external_guava" />
   <remove-project name="android_external_jhead" />
+  <remove-project name="android_external_libavc" />
   <remove-project name="android_external_libexif" />
+  <remove-project name="android_external_libhevc" />
+  <remove-project name="android_external_libmpeg2" />
   <remove-project name="android_external_libnfc-nci" />
+  <remove-project name="android_external_libvpx" />
   <remove-project name="android_external_libxml2" />
   <remove-project name="android_external_skia" />
   <remove-project name="android_external_tinyalsa" />
   <remove-project name="android_external_tinycompress" />
+  <remove-project name="android_external_tremolo" />
+  <remove-project name="android_external_wpa_supplicant_8" />
   <remove-project name="android_frameworks_av" />
   <remove-project name="android_frameworks_base" />
   <remove-project name="android_frameworks_ex" />
@@ -74,6 +82,7 @@
   <remove-project name="android_packages_services_OmniJaws" />
   <remove-project name="android_packages_services_Telecomm" />
   <remove-project name="android_packages_services_Telephony" />
+  <remove-project name="android_system_bt" />
   <remove-project name="android_system_media" />
   <remove-project name="android_system_vold" />
   <remove-project name="android_vendor_codeaurora_telephony" />
@@ -95,7 +104,6 @@
   <remove-project name="platform/developers/samples/android" />
   <remove-project name="platform/docs/source.android.com" />
   <remove-project name="platform/external/ImageMagick" />
-  <remove-project name="platform/external/aac" />
   <remove-project name="platform/external/android-clat" />
   <remove-project name="platform/external/android-mock" />
   <remove-project name="platform/external/androidplot" />
@@ -129,7 +137,6 @@
   <remove-project name="platform/external/dexmaker" />
   <remove-project name="platform/external/dhcpcd-6.8.2" />
   <remove-project name="platform/external/dng_sdk" />
-  <remove-project name="platform/external/dnsmasq" />
   <remove-project name="platform/external/donuts" />
   <remove-project name="platform/external/drm_gralloc" />
   <remove-project name="platform/external/drm_hwcomposer" />
@@ -187,7 +194,6 @@
   <remove-project name="platform/external/junit" />
   <remove-project name="platform/external/kernel-headers" />
   <remove-project name="platform/external/ksoap2" />
-  <remove-project name="platform/external/libavc" />
   <remove-project name="platform/external/libbrillo" />
   <remove-project name="platform/external/libcap-ng" />
   <remove-project name="platform/external/libchrome" />
@@ -197,10 +203,8 @@
   <remove-project name="platform/external/libevent" />
   <remove-project name="platform/external/libgdx" />
   <remove-project name="platform/external/libgsm" />
-  <remove-project name="platform/external/libhevc" />
   <remove-project name="platform/external/libjpeg-turbo" />
   <remove-project name="platform/external/libmicrohttpd" />
-  <remove-project name="platform/external/libmpeg2" />
   <remove-project name="platform/external/libmtp" />
   <remove-project name="platform/external/libnfc-nxp" />
   <remove-project name="platform/external/libogg" />
@@ -212,7 +216,6 @@
   <remove-project name="platform/external/libutf" />
   <remove-project name="platform/external/libvncserver" />
   <remove-project name="platform/external/libvorbis" />
-  <remove-project name="platform/external/libvpx" />
   <remove-project name="platform/external/libvterm" />
   <remove-project name="platform/external/libweave" />
   <remove-project name="platform/external/libyuv" />
@@ -279,7 +282,6 @@
   <remove-project name="platform/external/tinyxml2" />
   <remove-project name="platform/external/tlsdate" />
   <remove-project name="platform/external/tpm2" />
-  <remove-project name="platform/external/tremolo" />
   <remove-project name="platform/external/unicode" />
   <remove-project name="platform/external/universal-tween-engine" />
   <remove-project name="platform/external/v8" />
@@ -290,7 +292,6 @@
   <remove-project name="platform/external/vulkan-validation-layers" />
   <remove-project name="platform/external/webp" />
   <remove-project name="platform/external/webrtc" />
-  <remove-project name="platform/external/wpa_supplicant_8" />
   <remove-project name="platform/external/xmlrpcpp" />
   <remove-project name="platform/external/xmlwriter" />
   <remove-project name="platform/external/xmp_toolkit" />
@@ -407,7 +408,6 @@
   <remove-project name="platform/prebuilts/qemu-kernel" />
   <remove-project name="platform/prebuilts/tools" />
   <remove-project name="platform/sdk" />
-  <remove-project name="platform/system/bt" />
   <remove-project name="platform/system/ca-certificates" />
   <remove-project name="platform/system/connectivity/apmanager" />
   <remove-project name="platform/system/connectivity/dhcp_client" />
