@@ -275,7 +275,6 @@
     <remove-project name="platform/packages/apps/SafetyRegulatoryInfo" />
     <remove-project name="platform/packages/apps/SoundRecorder" />
     <remove-project name="platform/packages/apps/SpareParts" />
-    <remove-project name="platform/packages/apps/Stk" />
     <remove-project name="platform/packages/apps/StorageManager" />
     <remove-project name="platform/packages/apps/Tag" />
     <remove-project name="platform/packages/apps/Terminal" />
