@@ -360,7 +360,6 @@
     <remove-project name="platform/system/libufdt" />
     <remove-project name="platform/system/nvram" />
     <remove-project name="platform/system/tpm" />
-    <remove-project name="platform/system/update_engine" />
 
     <remove-project name="platform/test/sts" />
 
