@@ -11,7 +11,7 @@ Contact @lj50036 on irc, Network: freenode, Channel: #twrp
 ----------------------
 Maintaining authorship is a very important aspect of working with Open Source code. If you wish to submit a patch/fix
 from anywhere else (another ROM, project, etc.), it is imperative that you maintain the ownership of the person whose
-work you're seeking to include. Doing so will ensure that credit is given where it is deserved, and the [prinicples of open source](http://opensource.org/docs/osd)
+work you're seeking to include. Doing so will ensure that credit is given where it is deserved, and the [principles of open source](http://opensource.org/docs/osd)
 are upheld. Your contribution to the project will still be recognized as you will forever be listed as the committer.
 
 If you manually cherry pick a patch/fix then you will need to add the original author prior to pushing to our [gerrit](https://gerrit.omnirom.org).
@@ -22,7 +22,7 @@ after you type in `git commit -a` , type in the commit message and save. You wou
 git commit --amend --author "Author <email@address.com>"
 ```
 
-So it should look like this once you get all of the author's information
+So it should look like this once you get all of the author's information:
 
 ```bash
 git commit --amend --author "Spencer McGillicuddy <spencer.the.bestest@gmail.com>"
