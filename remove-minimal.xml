@@ -23,7 +23,6 @@
     <remove-project name="platform/external/bart" />
     <remove-project name="platform/external/blktrace" />
     <remove-project name="platform/external/brotli" />
-    <remove-project name="platform/external/bsdiff" />
     <remove-project name="platform/external/caliper" />
     <remove-project name="platform/external/c-ares" />
     <remove-project name="platform/external/cblas" />
@@ -31,7 +30,6 @@
     <remove-project name="platform/external/chromium-trace" />
     <remove-project name="platform/external/cmockery" />
     <remove-project name="platform/external/crcalc" />
-    <remove-project name="platform/external/cros/system_api" />
     <remove-project name="platform/external/curl" />
     <remove-project name="platform/external/dagger2" />
     <remove-project name="platform/external/deqp" />
@@ -98,7 +96,6 @@
     <remove-project name="platform/external/ksoap2" />
     <remove-project name="platform/external/libavc" />
     <remove-project name="platform/external/libbackup" />
-    <remove-project name="platform/external/libbrillo" />
     <remove-project name="platform/external/libcap-ng" />
     <remove-project name="platform/external/libconstrainedcrypto" />
     <remove-project name="platform/external/libcups" />
@@ -215,7 +212,6 @@
     <remove-project name="platform/external/xmlrpcpp" />
     <remove-project name="platform/external/xmlwriter" />
     <remove-project name="platform/external/xmp_toolkit" />
-    <remove-project name="platform/external/xz-embedded" />
     <remove-project name="platform/external/zopfli" />
     <remove-project name="platform/external/zxing" />
 
@@ -436,7 +432,6 @@
 
     <remove-project name="android_system_bt" />
     <remove-project name="android_system_nfc" />
-    <remove-project name="android_system_update_engine" />
 
 
     <!-- Remove from omni-caf.xml (forked CAF) -->
