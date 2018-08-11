@@ -50,6 +50,6 @@
 
 
 <!-- busybox -->
-    <project path="external/busybox" name="TeamWin/android_external_busybox" remote="github" revision="android-8.0" />
+    <project path="external/busybox" name="android_external_busybox" remote="omnirom" revision="android-8.1" />
 
 </manifest>
