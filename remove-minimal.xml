@@ -46,7 +46,6 @@
     <remove-project name="platform/external/drm_hwcomposer" />
     <remove-project name="platform/external/droiddriver" />
     <remove-project name="platform/external/drrickorang" />
-    <remove-project name="platform/external/dtc" />
     <remove-project name="platform/external/easymock" />
     <remove-project name="platform/external/emma" />
     <remove-project name="platform/external/esd" />
