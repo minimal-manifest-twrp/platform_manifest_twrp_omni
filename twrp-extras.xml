@@ -1,25 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-    <remote  name="TeamWin"
-             fetch="https://github.com/TeamWin" />
+    <remote name="TeamWin"
+            fetch="https://github.com/TeamWin"/>
 
-<!-- TWRP lives in omnirom android-9.0 (not AOSP!) -->
-    <remove-project name="platform/bootable/recovery" />
-    <project path="bootable/recovery" name="android_bootable_recovery" remote="omnirom" revision="android-9.0" />
-
-<!-- The following directories are actually needed from android_frameworks_base (for FBE decryption)
-     * frameworks/base/core/java   (~46MB)
-     * frameworks/base/keystore/java  (<1MB)
-     And for TWRP
-     * frameworks/base/libs/services  (<1MB)
-     not only is it not worth syncing a 1GB repo for ~47MB for me, the added dependencies make
-     the minimal manifest unworkable.
-     So for those that do want to sync frameworks/base but don't want the build to break (eg framworks/support),
-     sync it to the staging are and only link the needed directories.
--->
-    <project path="TeamWin/.repo/frameworks/base" name="android_frameworks_base" remote="omnirom" revision="android-9.0" clone-depth="1" >
-        <linkfile src="core/java" dest="frameworks/base/core/java" />
-        <linkfile src="keystore/java" dest="frameworks/base/keystore/java" />
-        <linkfile src="libs/services" dest="frameworks/base/libs/services" />
-    </project>
+    <!-- TWRP lives in omnirom android-9.0 (not AOSP!) -->
+    <remove-project name="platform/bootable/recovery"/>
+    <project path="bootable/recovery" name="android_bootable_recovery" remote="omnirom" revision="android-9.0"/>
 </manifest>
