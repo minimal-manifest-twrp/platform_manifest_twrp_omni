@@ -24,8 +24,8 @@
     <linkfile src="tools" dest="build/tools" />
   </project>
   <project path="build/soong" name="android_build_soong" remote="omnirom" revision="android-9.0" >
-    <linkfile src="root.bp" dest="Android.bp" />
-    <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
+      <linkfile src="root.bp" dest="Android.bp" />
+      <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
   </project>
 
   <project path="development" name="android_development" remote="omnirom" revision="android-9.0" groups="pdk-cw-fs,pdk-fs" />
@@ -36,7 +36,7 @@
   <project path="external/mksh" name="android_external_mksh" remote="omnirom" revision="android-9.0" />
   <project path="external/tinycompress" name="android_external_tinycompress" remote="omnirom" revision="android-9.0" />
   <project path="external/selinux" name="android_external_selinux" remote="omnirom" revision="android-9.0" />
-    <project path="external/skia" name="android_external_skia" remote="omnirom" revision="android-9.0"/>
+  <project path="external/skia" name="android_external_skia" remote="omnirom" revision="android-9.0" />
   <project path="external/toybox" name="android_external_toybox" remote="omnirom" revision="android-9.0" />
 
   <project path="frameworks/av" name="android_frameworks_av" remote="omnirom" revision="android-9.0" />
@@ -52,7 +52,7 @@
   <project path="hardware/libhardware_legacy" name="android_hardware_libhardware_legacy" remote="omnirom" revision="android-9.0" groups="pdk" />
 
   <project path="hardware/nxp/nfc" name="android_hardware_nxp_nfc" remote="omnirom" revision="android-9.0" />
-
+  
   <project path="hardware/qcom/audio" name="android_hardware_qcom_audio" remote="omnirom" revision="android-9.0" />
   <project path="hardware/qcom/bt" name="android_hardware_qcom_bt" remote="omnirom" revision="android-9.0" />
   <project path="hardware/qcom/display" name="android_hardware_qcom_display" remote="omnirom" revision="android-9.0" />

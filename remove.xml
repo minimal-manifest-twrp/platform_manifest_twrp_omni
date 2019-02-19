@@ -65,7 +65,7 @@
   <remove-project name="platform/external/mksh" />
   <remove-project name="platform/external/tinycompress" />
   <remove-project name="platform/external/selinux" />
-  <remove-project name="platform/external/skia"/>
+  <remove-project name="platform/external/skia" />
   <remove-project name="platform/external/toybox" />
 
   <remove-project name="platform/frameworks/av" />
