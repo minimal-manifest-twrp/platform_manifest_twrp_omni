@@ -499,7 +499,7 @@
   <project path="prebuilts/sdk" name="platform/prebuilts/sdk" groups="pdk,tradefed" />
   <!--project path="prebuilts/tools" name="platform/prebuilts/tools" groups="pdk,tools" /> -->
   <!--project path="sdk" name="platform/sdk" groups="pdk-cw-fs" /> -->
-  <project path="system/core" name="android_system_core" remote="omnirom" revision="android-5.1" groups="pdk" />
+  <project path="system/core" name="android_system_core" remote="TeamWin" revision="android-5.1" groups="pdk" />
   <project path="system/extras" name="android_system_extras" remote="omnirom" revision="android-5.1" groups="pdk" />
   <!--project path="system/keymaster" name="platform/system/keymaster" groups="pdk" /> -->
   <!--project path="system/media" name="android_system_media" groups="pdk" remote="omnirom" revision="android-5.1" /> -->
