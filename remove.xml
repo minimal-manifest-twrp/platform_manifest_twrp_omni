@@ -142,6 +142,7 @@
   <remove-project name="platform/packages/apps/Settings" />
   <remove-project name="platform/packages/apps/SettingsIntelligence" />
   <remove-project name="platform/packages/apps/Stk" />
+  <remove-project name="platform/packages/apps/Tag" />
 
   <remove-project name="platform/packages/inputmethods/LatinIME" />
 

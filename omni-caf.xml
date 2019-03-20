@@ -12,4 +12,5 @@
   <project path="external/libnfnetlink" name="android_external_libnfnetlink" remote="omnirom" revision="android-9.0" />
   <project path="hardware/ril" name="android_hardware_ril" remote="omnirom" revision="android-9.0" />
   <project path="vendor/codeaurora/telephony" name="android_vendor_codeaurora_telephony" remote="omnirom" revision="android-9.0" />
+  <project path="vendor/qcom/opensource/interfaces" name="android_vendor_qcom_opensource_interfaces" remote="omnirom" revision="android-9.0" />
 </manifest>

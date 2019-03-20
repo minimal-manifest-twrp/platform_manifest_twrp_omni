@@ -76,6 +76,7 @@
   <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="omnirom" revision="android-9.0" />
   <project path="packages/apps/SettingsIntelligence" name="android_packages_apps_SettingsIntelligence" remote="omnirom" revision="android-9.0" />
   <project path="packages/apps/Stk" name="android_packages_apps_Stk" remote="omnirom" revision="android-9.0" />
+  <project path="packages/apps/Tag" name="android_packages_apps_Tag" remote="omnirom" revision="android-9.0" />
 
   <project path="packages/inputmethods/LatinIME" name="android_packages_inputmethods_LatinIME" remote="omnirom" revision="android-9.0" />
 
