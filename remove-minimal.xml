@@ -229,6 +229,7 @@
     <remove-project name="platform/hardware/google/apf"/>
     <remove-project name="platform/hardware/google/easel"/>
     <remove-project name="platform/hardware/google/interfaces"/>
+    <remove-project name="android_vendor_qcom_opensource_interfaces"/>
     <remove-project name="platform/hardware/qcom/keymaster"/>
 
     <remove-project name="platform/packages/apps/BasicSmsReceiver"/>
@@ -253,7 +254,7 @@
     <remove-project name="platform/packages/apps/SoundRecorder"/>
     <remove-project name="platform/packages/apps/SpareParts"/>
     <remove-project name="platform/packages/apps/StorageManager"/>
-    <remove-project name="platform/packages/apps/Tag"/>
+    <remove-project name="android_packages_apps_Tag"/>
     <remove-project name="platform/packages/apps/Terminal"/>
     <remove-project name="platform/packages/apps/Test/connectivity"/>
     <remove-project name="platform/packages/apps/TimeZoneData"/>
