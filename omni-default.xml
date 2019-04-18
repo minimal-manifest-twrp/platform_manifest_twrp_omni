@@ -1,49 +1,49 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-  <!-- FIRST: Remove unused/forked AOSP Projects -->
-  <include name="remove.xml" />
+    <!-- FIRST: Remove unused/forked AOSP Projects -->
+    <include name="remove.xml" />
 
-  <!-- Include forked AOSP -->
-  <include name="omni-aosp.xml" />
+    <!-- Include forked AOSP -->
+    <include name="omni-aosp.xml" />
 
-  <!-- Include forked CAF -->
-  <include name="omni-caf.xml" />
+    <!-- Include forked CAF -->
+    <include name="omni-caf.xml" />
 
-  <!-- OmniROM Projects -->
-  <project path="android" name="android" remote="omnirom" revision="android-9.0" />
+    <!-- OmniROM Projects -->
+    <project path="android" name="android" remote="omnirom" revision="android-9.0" />
 
-  <project path="vendor/omni" name="android_vendor_omni" remote="omnirom" revision="android-9.0" />
+    <project path="vendor/omni" name="android_vendor_omni" remote="omnirom" revision="android-9.0" />
 
-  <project path="external/bash" name="android_external_bash" remote="omnirom" revision="android-9.0" />
-  <project path="external/exfat" name="android_external_exfat" remote="omnirom" revision="android-8.1" />
-  <project path="external/fuse" name="android_external_fuse" remote="omnirom" revision="android-8.0" />
-  <project path="external/htop" name="android_external_htop" remote="omnirom" revision="android-9.0" />
-  <project path="external/libncurses" name="android_external_libncurses" remote="omnirom" revision="android-9.0" />
-  <project path="external/nano" name="android_external_nano" remote="omnirom" revision="android-9.0" />
-  <project path="external/ntfs-3g" name="android_external_ntfs-3g" remote="omnirom" revision="android-8.1"/>
-  <project path="external/openssh" name="android_external_openssh" remote="omnirom" revision="android-9.0" />
-  <project path="external/powertop" name="android_external_powertop" remote="omnirom" revision="android-9.0" />
-  <project path="external/rsync" name="android_external_rsync" remote="omnirom" revision="android-9.0" />
-  <project path="external/vim" name="android_external_vim" remote="omnirom" revision="android-9.0" />
-  <project path="external/zip" name="android_external_zip"  remote="omnirom" revision="android-9.0" />
+    <project path="external/bash" name="android_external_bash" remote="omnirom" revision="android-9.0" />
+    <project path="external/exfat" name="android_external_exfat" remote="omnirom" revision="android-8.1" />
+    <project path="external/fuse" name="android_external_fuse" remote="omnirom" revision="android-8.0" />
+    <project path="external/htop" name="android_external_htop" remote="omnirom" revision="android-9.0" />
+    <project path="external/libncurses" name="android_external_libncurses" remote="omnirom" revision="android-9.0" />
+    <project path="external/nano" name="android_external_nano" remote="omnirom" revision="android-9.0" />
+    <project path="external/ntfs-3g" name="android_external_ntfs-3g" remote="omnirom" revision="android-8.1" />
+    <project path="external/openssh" name="android_external_openssh" remote="omnirom" revision="android-9.0" />
+    <project path="external/powertop" name="android_external_powertop" remote="omnirom" revision="android-9.0" />
+    <project path="external/rsync" name="android_external_rsync" remote="omnirom" revision="android-9.0" />
+    <project path="external/vim" name="android_external_vim" remote="omnirom" revision="android-9.0" />
+    <project path="external/zip" name="android_external_zip" remote="omnirom" revision="android-9.0" />
 
-  <project path="packages/apps/Matlog" name="android_packages_apps_Matlog" remote="omnirom" revision="android-9.0" />
-  <project path="packages/apps/MonthCalendarWidget" name="android_packages_apps_MonthCalendarWidget" remote="omnirom" revision="android-9.0" />
-  <project path="packages/apps/OmniChange" name="android_packages_apps_OmniChange" remote="omnirom" revision="android-9.0" />
-  <project path="packages/apps/OmniChromium" name="android_packages_apps_OmniChromium" remote="gitlab" revision="android-9.0" />
-  <project path="packages/apps/OmniClock" name="android_packages_apps_OmniClock" remote="omnirom" revision="android-9.0" />
-  <project path="packages/apps/OmniGears" name="android_packages_apps_OmniGears" remote="omnirom" revision="android-9.0" />
-  <project path="packages/apps/OmniLib" name="android_packages_apps_OmniLib" remote="omnirom" revision="android-9.0" />
-  <project path="packages/apps/OmniBrain" name="android_packages_apps_OmniBrain" remote="omnirom" revision="android-9.0" />
-  <project path="packages/services/OmniJaws" name="android_packages_services_OmniJaws" remote="omnirom" revision="android-9.0" />
-  <project path="packages/apps/OmniRecord" name="android_packages_apps_OmniRecord" remote="omnirom" revision="android-9.0" />
-  <project path="packages/apps/OmniStyle" name="android_packages_apps_OmniStyle" remote="omnirom" revision="android-9.0" />
-  <project path="packages/apps/OmniSwitch" name="android_packages_apps_OmniSwitch" remote="omnirom" revision="android-9.0" />
-  <project path="packages/apps/OpenDelta" name="android_packages_apps_OpenDelta" remote="omnirom" revision="android-9.0" />
-  <project path="packages/apps/Phonograph" name="android_packages_apps_Phonograph" remote="omnirom" revision="android-9.0" />
+    <project path="packages/apps/Matlog" name="android_packages_apps_Matlog" remote="omnirom" revision="android-9.0" />
+    <project path="packages/apps/MonthCalendarWidget" name="android_packages_apps_MonthCalendarWidget" remote="omnirom" revision="android-9.0" />
+    <project path="packages/apps/OmniChange" name="android_packages_apps_OmniChange" remote="omnirom" revision="android-9.0" />
+    <project path="packages/apps/OmniChromium" name="android_packages_apps_OmniChromium" remote="gitlab" revision="android-9.0" />
+    <project path="packages/apps/OmniClock" name="android_packages_apps_OmniClock" remote="omnirom" revision="android-9.0" />
+    <project path="packages/apps/OmniGears" name="android_packages_apps_OmniGears" remote="omnirom" revision="android-9.0" />
+    <project path="packages/apps/OmniLib" name="android_packages_apps_OmniLib" remote="omnirom" revision="android-9.0" />
+    <project path="packages/apps/OmniBrain" name="android_packages_apps_OmniBrain" remote="omnirom" revision="android-9.0" />
+    <project path="packages/services/OmniJaws" name="android_packages_services_OmniJaws" remote="omnirom" revision="android-9.0" />
+    <project path="packages/apps/OmniRecord" name="android_packages_apps_OmniRecord" remote="omnirom" revision="android-9.0" />
+    <project path="packages/apps/OmniStyle" name="android_packages_apps_OmniStyle" remote="omnirom" revision="android-9.0" />
+    <project path="packages/apps/OmniSwitch" name="android_packages_apps_OmniSwitch" remote="omnirom" revision="android-9.0" />
+    <project path="packages/apps/OpenDelta" name="android_packages_apps_OpenDelta" remote="omnirom" revision="android-9.0" />
+    <project path="packages/apps/Phonograph" name="android_packages_apps_Phonograph" remote="omnirom" revision="android-9.0" />
 
-  <!-- LAST: Remove unused/forked Projects for minimal TWRP -->
-  <include name="remove-minimal.xml" />
+    <!-- LAST: Remove unused/forked Projects for minimal TWRP -->
+    <include name="remove-minimal.xml" />
 
 </manifest>

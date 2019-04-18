@@ -1,101 +1,102 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-  <remote  name="github"
-           fetch="https://github.com/" />
+    <remote name="github"
+            fetch="https://github.com/" />
 
-  <remote  name="gitlab"
-           fetch="https://gitlab.com/omnirom" />
+    <remote name="gitlab"
+            fetch="https://gitlab.com/omnirom" />
 
-  <remote  name="omnirom"
-           fetch="https://github.com/omnirom"
-           review="gerrit.omnirom.org" />
+    <remote name="omnirom"
+            fetch="https://github.com/omnirom"
+            review="gerrit.omnirom.org" />
 
-  <project path="art" name="android_art" remote="omnirom" revision="android-9.0" groups="pdk" />
-  <project path="bionic" name="android_bionic" remote="omnirom" revision="android-9.0" groups="pdk" />
+    <project path="art" name="android_art" remote="omnirom" revision="android-9.0" groups="pdk" />
+    <project path="bionic" name="android_bionic" remote="omnirom" revision="android-9.0" groups="pdk" />
 
-  <project path="build/make" name="android_build" remote="omnirom" revision="android-9.0" groups="pdk" >
-    <copyfile src="core/root.mk" dest="Makefile" />
-    <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
-    <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
-    <linkfile src="core" dest="build/core" />
-    <linkfile src="envsetup.sh" dest="build/envsetup.sh" />
-    <linkfile src="target" dest="build/target" />
-    <linkfile src="tools" dest="build/tools" />
-  </project>
-  <project path="build/soong" name="android_build_soong" remote="omnirom" revision="android-9.0" >
-      <linkfile src="root.bp" dest="Android.bp" />
-      <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
-  </project>
+    <project path="build/make" name="android_build" remote="omnirom" revision="android-9.0" groups="pdk" >
+        <copyfile src="core/root.mk" dest="Makefile" />
+        <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
+        <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
+        <linkfile src="core" dest="build/core" />
+        <linkfile src="envsetup.sh" dest="build/envsetup.sh" />
+        <linkfile src="target" dest="build/target" />
+        <linkfile src="tools" dest="build/tools" />
+    </project>
+    <project path="build/soong" name="android_build_soong" remote="omnirom" revision="android-9.0" >
+        <linkfile src="root.bp" dest="Android.bp" />
+        <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
+    </project>
 
-  <project path="development" name="android_development" remote="omnirom" revision="android-9.0" groups="pdk-cw-fs,pdk-fs" />
+    <project path="development" name="android_development" remote="omnirom" revision="android-9.0" groups="pdk-cw-fs,pdk-fs" />
 
-  <project path="external/aac" name="android_external_aac" remote="omnirom" revision="android-9.0" />
-  <project path="external/e2fsprogs" name="android_external_e2fsprogs" remote="omnirom" revision="android-9.0" />
-  <project path="external/f2fs-tools" name="android_external_f2fs-tools" remote="omnirom" revision="android-9.0" />
-  <project path="external/mksh" name="android_external_mksh" remote="omnirom" revision="android-9.0" />
-  <project path="external/tinycompress" name="android_external_tinycompress" remote="omnirom" revision="android-9.0" />
-  <project path="external/selinux" name="android_external_selinux" remote="omnirom" revision="android-9.0" />
-  <project path="external/skia" name="android_external_skia" remote="omnirom" revision="android-9.0" />
-  <project path="external/toybox" name="android_external_toybox" remote="omnirom" revision="android-9.0" />
+    <project path="external/aac" name="android_external_aac" remote="omnirom" revision="android-9.0" />
+    <project path="external/e2fsprogs" name="android_external_e2fsprogs" remote="omnirom" revision="android-9.0" />
+    <project path="external/f2fs-tools" name="android_external_f2fs-tools" remote="omnirom" revision="android-9.0" />
+    <project path="external/mksh" name="android_external_mksh" remote="omnirom" revision="android-9.0" />
+    <project path="external/tinycompress" name="android_external_tinycompress" remote="omnirom" revision="android-9.0" />
+    <project path="external/selinux" name="android_external_selinux" remote="omnirom" revision="android-9.0" />
+    <project path="external/skia" name="android_external_skia" remote="omnirom" revision="android-9.0" />
+    <project path="external/toybox" name="android_external_toybox" remote="omnirom" revision="android-9.0" />
 
-  <project path="frameworks/av" name="android_frameworks_av" remote="omnirom" revision="android-9.0" />
-  <project path="frameworks/base" name="android_frameworks_base" remote="omnirom" revision="android-9.0" />
-  <project path="frameworks/native" name="android_frameworks_native" remote="omnirom" revision="android-9.0" />
-  <project path="frameworks/opt/telephony" name="android_frameworks_opt_telephony" remote="omnirom" revision="android-9.0" />
-  <project path="frameworks/opt/net/wifi" name="android_frameworks_opt_net_wifi" remote="omnirom" revision="android-9.0" />
-  <project path="frameworks/opt/net/ims" name="android_frameworks_opt_net_ims" remote="omnirom" revision="android-9.0" />
+    <project path="frameworks/av" name="android_frameworks_av" remote="omnirom" revision="android-9.0" />
+    <project path="frameworks/base" name="android_frameworks_base" remote="omnirom" revision="android-9.0" />
+    <project path="frameworks/native" name="android_frameworks_native" remote="omnirom" revision="android-9.0" />
+    <project path="frameworks/opt/telephony" name="android_frameworks_opt_telephony" remote="omnirom" revision="android-9.0" />
+    <project path="frameworks/opt/net/wifi" name="android_frameworks_opt_net_wifi" remote="omnirom" revision="android-9.0" />
+    <project path="frameworks/opt/net/ims" name="android_frameworks_opt_net_ims" remote="omnirom" revision="android-9.0" />
 
-  <project path="hardware/interfaces" name="android_hardware_interfaces" remote="omnirom" revision="android-9.0" />
-  <project path="hardware/invensense" name="android_hardware_invensense" remote="omnirom" revision="android-9.0" />
-  <project path="hardware/libhardware" name="android_hardware_libhardware" remote="omnirom" revision="android-9.0" />
-  <project path="hardware/libhardware_legacy" name="android_hardware_libhardware_legacy" remote="omnirom" revision="android-9.0" groups="pdk" />
+    <project path="hardware/interfaces" name="android_hardware_interfaces" remote="omnirom" revision="android-9.0" />
+    <project path="hardware/invensense" name="android_hardware_invensense" remote="omnirom" revision="android-9.0" />
+    <project path="hardware/libhardware" name="android_hardware_libhardware" remote="omnirom" revision="android-9.0" />
+    <project path="hardware/libhardware_legacy" name="android_hardware_libhardware_legacy" remote="omnirom" revision="android-9.0" groups="pdk" />
 
-  <project path="hardware/nxp/nfc" name="android_hardware_nxp_nfc" remote="omnirom" revision="android-9.0" />
-  
-  <project path="hardware/qcom/audio" name="android_hardware_qcom_audio" remote="omnirom" revision="android-9.0" />
-  <project path="hardware/qcom/bt" name="android_hardware_qcom_bt" remote="omnirom" revision="android-9.0" />
-  <project path="hardware/qcom/display" name="android_hardware_qcom_display" remote="omnirom" revision="android-9.0" />
-  <project path="hardware/qcom/media" name="android_hardware_qcom_media" remote="omnirom" revision="android-9.0" />
-  <project path="hardware/qcom/msm8998" name="android_hardware_qcom_msm8998" remote="omnirom" revision="android-9.0" />
-  <project path="hardware/qcom/power" name="android_hardware_qcom_power" remote="omnirom" revision="android-9.0" />
-  <project path="hardware/qcom/wlan" name="android_hardware_qcom_wlan" remote="omnirom" revision="android-9.0" />
+    <project path="hardware/nxp/nfc" name="android_hardware_nxp_nfc" remote="omnirom" revision="android-9.0" />
 
-  <project path="packages/apps/Calendar" name="android_packages_apps_Calendar" remote="omnirom" revision="android-9.0" />
-  <project path="packages/apps/Contacts" name="android_packages_apps_Contacts" remote="omnirom" revision="android-9.0" />
-  <project path="packages/apps/CellBroadcastReceiver" name="android_packages_apps_CellBroadcastReceiver" remote="omnirom" revision="android-9.0" />
-  <project path="packages/apps/Dialer" name="android_packages_apps_Dialer" remote="omnirom" revision="android-9.0" />
-  <project path="packages/apps/DocumentsUI" name="android_packages_apps_DocumentsUI" remote="omnirom" revision="android-9.0" />
-  <project path="packages/apps/EmergencyInfo" name="android_packages_apps_EmergencyInfo" remote="omnirom" revision="android-9.0" />
-  <project path="packages/apps/Launcher3" name="android_packages_apps_Launcher3" remote="omnirom" revision="android-9.0" />
-  <project path="packages/apps/Gallery2" name="android_packages_apps_Gallery2" remote="omnirom" revision="android-9.0" />
-  <project path="packages/apps/Messaging" name="android_packages_apps_Messaging" remote="omnirom" revision="android-9.0" />
-  <project path="packages/apps/MusicFX" name="android_packages_apps_MusicFX" remote="omnirom" revision="android-9.0" />
-  <project path="packages/apps/Nfc" name="android_packages_apps_Nfc" remote="omnirom" revision="android-9.0" />
-  <project path="packages/apps/PhoneCommon" name="android_packages_apps_PhoneCommon" remote="omnirom" revision="android-9.0" />
-  <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="omnirom" revision="android-9.0" />
-  <project path="packages/apps/SettingsIntelligence" name="android_packages_apps_SettingsIntelligence" remote="omnirom" revision="android-9.0" />
-  <project path="packages/apps/Stk" name="android_packages_apps_Stk" remote="omnirom" revision="android-9.0" />
-  <project path="packages/apps/Tag" name="android_packages_apps_Tag" remote="omnirom" revision="android-9.0" />
+    <project path="hardware/qcom/audio" name="android_hardware_qcom_audio" remote="omnirom" revision="android-9.0" />
+    <project path="hardware/qcom/bt" name="android_hardware_qcom_bt" remote="omnirom" revision="android-9.0" />
+    <project path="hardware/qcom/display" name="android_hardware_qcom_display" remote="omnirom" revision="android-9.0" />
+    <project path="hardware/qcom/media" name="android_hardware_qcom_media" remote="omnirom" revision="android-9.0" />
+    <project path="hardware/qcom/msm8998" name="android_hardware_qcom_msm8998" remote="omnirom" revision="android-9.0" />
+    <project path="hardware/qcom/power" name="android_hardware_qcom_power" remote="omnirom" revision="android-9.0" />
+    <project path="hardware/qcom/wlan" name="android_hardware_qcom_wlan" remote="omnirom" revision="android-9.0" />
 
-  <project path="packages/inputmethods/LatinIME" name="android_packages_inputmethods_LatinIME" remote="omnirom" revision="android-9.0" />
+    <project path="packages/apps/Calendar" name="android_packages_apps_Calendar" remote="omnirom" revision="android-9.0" />
+    <project path="packages/apps/Contacts" name="android_packages_apps_Contacts" remote="omnirom" revision="android-9.0" />
+    <project path="packages/apps/CellBroadcastReceiver" name="android_packages_apps_CellBroadcastReceiver" remote="omnirom" revision="android-9.0" />
+    <project path="packages/apps/Dialer" name="android_packages_apps_Dialer" remote="omnirom" revision="android-9.0" />
+    <project path="packages/apps/DocumentsUI" name="android_packages_apps_DocumentsUI" remote="omnirom" revision="android-9.0" />
+    <project path="packages/apps/EmergencyInfo" name="android_packages_apps_EmergencyInfo" remote="omnirom" revision="android-9.0" />
+    <project path="packages/apps/Launcher3" name="android_packages_apps_Launcher3" remote="omnirom" revision="android-9.0" />
+    <project path="packages/apps/Gallery2" name="android_packages_apps_Gallery2" remote="omnirom" revision="android-9.0" />
+    <project path="packages/apps/Messaging" name="android_packages_apps_Messaging" remote="omnirom" revision="android-9.0" />
+    <project path="packages/apps/MusicFX" name="android_packages_apps_MusicFX" remote="omnirom" revision="android-9.0" />
+    <project path="packages/apps/Nfc" name="android_packages_apps_Nfc" remote="omnirom" revision="android-9.0" />
+    <project path="packages/apps/PhoneCommon" name="android_packages_apps_PhoneCommon" remote="omnirom" revision="android-9.0" />
+    <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="omnirom" revision="android-9.0" />
+    <project path="packages/apps/SettingsIntelligence" name="android_packages_apps_SettingsIntelligence" remote="omnirom" revision="android-9.0" />
+    <project path="packages/apps/Stk" name="android_packages_apps_Stk" remote="omnirom" revision="android-9.0" />
+    <project path="packages/apps/Tag" name="android_packages_apps_Tag" remote="omnirom" revision="android-9.0" />
 
-  <project path="packages/providers/DownloadProvider" name="android_packages_providers_DownloadProvider" remote="omnirom" revision="android-9.0" />
+    <project path="packages/inputmethods/LatinIME" name="android_packages_inputmethods_LatinIME" remote="omnirom" revision="android-9.0" />
 
-  <project path="packages/services/Telephony" name="android_packages_services_Telephony" remote="omnirom" revision="android-9.0" />
-  <project path="packages/services/Telecomm" name="android_packages_services_Telecomm" remote="omnirom" revision="android-9.0" />
+    <project path="packages/providers/DownloadProvider" name="android_packages_providers_DownloadProvider" remote="omnirom" revision="android-9.0" />
 
-  <project path="prebuilts/build-tools" name="android_prebuilts_build-tools" remote="omnirom" revision="android-9.0" />
+    <project path="packages/services/Telephony" name="android_packages_services_Telephony" remote="omnirom" revision="android-9.0" />
+    <project path="packages/services/Telecomm" name="android_packages_services_Telecomm" remote="omnirom" revision="android-9.0" />
 
-  <project path="system/bt" name="android_system_bt" remote="omnirom" revision="android-9.0" />
-  <project path="system/core" name="android_system_core" remote="omnirom" revision="android-9.0" />
-  <project path="system/extras" name="android_system_extras" remote="omnirom" revision="android-9.0" />
-  <project path="system/libhidl" name="android_system_libhidl" remote="omnirom" revision="android-9.0" />
-  <project path="system/media" name="android_system_media" remote="omnirom" revision="android-9.0" />
-  <project path="system/nfc" name="android_system_nfc" remote="omnirom" revision="android-9.0" />
-  <project path="system/netd" name="android_system_netd" remote="omnirom" revision="android-9.0" />
-  <project path="system/sepolicy" name="android_system_sepolicy" remote="omnirom" revision="android-9.0" />
-  <project path="system/vold" name="android_system_vold" remote="omnirom" revision="android-9.0" />
-  <project path="system/hardware/interfaces" name="android_system_hardware_interfaces" remote="omnirom" revision="android-9.0" />
-  <project path="system/update_engine" name="android_system_update_engine" remote="omnirom" revision="android-9.0" />
+    <project path="prebuilts/build-tools" name="android_prebuilts_build-tools" remote="omnirom" revision="android-9.0" />
+
+    <project path="system/bt" name="android_system_bt" remote="omnirom" revision="android-9.0" />
+    <project path="system/core" name="android_system_core" remote="omnirom" revision="android-9.0" />
+    <project path="system/extras" name="android_system_extras" remote="omnirom" revision="android-9.0" />
+    <project path="system/libhidl" name="android_system_libhidl" remote="omnirom" revision="android-9.0" />
+    <project path="system/media" name="android_system_media" remote="omnirom" revision="android-9.0" />
+    <project path="system/nfc" name="android_system_nfc" remote="omnirom" revision="android-9.0" />
+    <project path="system/netd" name="android_system_netd" remote="omnirom" revision="android-9.0" />
+    <project path="system/sepolicy" name="android_system_sepolicy" remote="omnirom" revision="android-9.0" />
+    <project path="system/vold" name="android_system_vold" remote="omnirom" revision="android-9.0" />
+    <project path="system/hardware/interfaces" name="android_system_hardware_interfaces" remote="omnirom" revision="android-9.0" />
+    <project path="system/update_engine" name="android_system_update_engine" remote="omnirom" revision="android-9.0" />
+
 </manifest>
