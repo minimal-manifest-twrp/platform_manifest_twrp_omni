@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+    <remote name="havoc"
+            fetch="https://github.com/Havoc-OS"
+            revision="pie" />
+
+    <!-- Prebuilts -->
+    <project path="prebuilts/clang/host/linux-x86" name="android_prebuilts_clang_host_linux-x86" remote="havoc" clone-depth="1" />
+
+</manifest>

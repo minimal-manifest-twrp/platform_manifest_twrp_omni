@@ -152,6 +152,7 @@
     <remove-project name="platform/packages/services/Telecomm" />
 
     <remove-project name="platform/prebuilts/build-tools" />
+    <remove-project name="platform/prebuilts/clang/host/linux-x86" />
 
     <remove-project name="platform/system/bt" />
     <remove-project name="platform/system/core" />

@@ -86,6 +86,8 @@
     <project path="packages/services/Telecomm" name="android_packages_services_Telecomm" remote="omnirom" revision="android-9.0" />
 
     <project path="prebuilts/build-tools" name="android_prebuilts_build-tools" remote="omnirom" revision="android-9.0" />
+    <!-- Havoc additions -->
+    <include name="havoc.xml" />
 
     <project path="system/bt" name="android_system_bt" remote="omnirom" revision="android-9.0" />
     <project path="system/core" name="android_system_core" remote="omnirom" revision="android-9.0" />
