@@ -35,7 +35,7 @@
   <project path="bionic" name="android_bionic" remote="omnirom" revision="android-4.4" />
   <!--project path="bootable/bootloader/legacy" name="platform/bootable/bootloader/legacy" /> -->
   <!--project path="bootable/diskinstaller" name="platform/bootable/diskinstaller" /> -->
-  <project path="bootable/recovery" name="android_bootable_recovery" remote="omnirom" revision="android-7.1"/>
+  <project path="bootable/recovery" name="android_bootable_recovery" remote="omnirom" revision="android-9.0"/>
   <!--project path="cts" name="platform/cts" groups="cts" /> -->
   <!--project path="dalvik" name="android_dalvik" remote="omnirom" revision="android-4.4" /> -->
   <!--project path="developers/build" name="platform/developers/build" /> -->
