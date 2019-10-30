@@ -249,6 +249,7 @@
     <remove-project name="platform/packages/apps/Provision"/>
     <remove-project name="platform/packages/apps/QuickSearchBox"/>
     <remove-project name="platform/packages/apps/SafetyRegulatoryInfo"/>
+    <remove-project name="platform/packages/apps/SecureElement"/>
     <remove-project name="platform/packages/apps/SoundRecorder"/>
     <remove-project name="platform/packages/apps/SpareParts"/>
     <remove-project name="platform/packages/apps/StorageManager"/>
@@ -281,6 +282,7 @@
     <remove-project name="platform/packages/apps/Car/Dialer"/>
     <remove-project name="platform/packages/apps/Car/Hvac"/>
     <remove-project name="platform/packages/apps/Car/LatinIME"/>
+    <remove-project name="platform/packages/apps/Car/Launcher"/>
     <remove-project name="platform/packages/apps/Car/LensPicker"/>
     <remove-project name="platform/packages/apps/Car/LocalMediaPlayer"/>
     <remove-project name="platform/packages/apps/Car/Media"/>
@@ -392,6 +394,7 @@
     <remove-project name="android_packages_apps_CellBroadcastReceiver"/>
     <remove-project name="android_packages_apps_Contacts"/>
     <remove-project name="android_packages_apps_Dialer"/>
+    <remove-project name="android_packages_apps_DocumentsUI"/>
     <remove-project name="android_packages_apps_EmergencyInfo"/>
     <remove-project name="android_packages_apps_Launcher3"/>
     <remove-project name="android_packages_apps_Gallery2"/>
@@ -402,6 +405,7 @@
     <remove-project name="android_packages_apps_OmniLib"/>
     <remove-project name="android_packages_apps_PhoneCommon"/>
     <remove-project name="android_packages_apps_Settings"/>
+    <remove-project name="android_packages_apps_SettingsIntelligence"/>
     <remove-project name="android_packages_apps_Stk"/>
     <remove-project name="android_packages_inputmethods_LatinIME"/>
     <remove-project name="android_packages_providers_DownloadProvider"/>
@@ -430,6 +434,8 @@
     <remove-project name="android_packages_apps_OmniStyle"/>
     <remove-project name="android_packages_apps_OmniSwitch"/>
     <remove-project name="android_packages_apps_OpenDelta"/>
+    <remove-project name="android_packages_apps_OmniChromium"/>
+    <remove-project name="android_packages_apps_OmniRecord"/>
     <remove-project name="android_packages_apps_Phonograph"/>
     <remove-project name="android_vendor_interfaces"/>
 
