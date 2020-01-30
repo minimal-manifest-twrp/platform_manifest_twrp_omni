@@ -1,9 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-  <remote  name="xda"
-           fetch=".." />
-
   <remote  name="github"
            fetch="https://github.com/" />
 
@@ -19,7 +16,7 @@
            review="gerrit.twrp.me"
            fetch="https://github.com/TeamWin" />
 
-  <default revision="refs/tags/android-6.0.1_r74"
+  <default revision="refs/tags/android-6.0.1_r81"
            remote="aosp"
            sync-c="true"
            sync-j="4" />
