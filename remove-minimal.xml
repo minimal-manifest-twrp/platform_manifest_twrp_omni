@@ -339,7 +339,6 @@
     <remove-project name="platform/system/connectivity/wificond"/>
     <remove-project name="platform/system/connectivity/wifilogd"/>
     <remove-project name="platform/system/chre"/>
-    <remove-project name="platform/system/libufdt"/>
     <remove-project name="platform/system/nvram"/>
     <remove-project name="platform/system/tpm"/>
 
