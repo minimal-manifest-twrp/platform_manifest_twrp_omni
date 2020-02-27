@@ -4,9 +4,10 @@
             fetch="https://github.com/TeamWin"
             review="https://gerrit.twrp.me" />
 
-<!-- TWRP lives in TeamWin android-9.0 (not AOSP!) -->
+<!-- TWRP lives in TeamWin android-10.0 (not AOSP!) -->
     <remove-project name="platform/bootable/recovery"/>
-    <project path="bootable/recovery" name="android_bootable_recovery" remote="TeamWin" revision="android-9.0"/>
+    <!--<project path="bootable/recovery" name="android_bootable_recovery" remote="TeamWin" revision="android-10.0"/>-->
+    <project path="bootable/recovery" name="bigbiff/android_bootable_recovery" remote="github" revision="aosp10-2"/>>
 
 <!-- Include external Magisk repo for repack binaries -->
     <project path="external/magisk-prebuilt" name="external_magisk-prebuilt" remote="TeamWin" revision="master" />

@@ -37,4 +37,6 @@
   <project path="packages/apps/Matlog" name="android_packages_apps_Matlog" remote="omnirom" revision="android-10" />
   <project path="packages/apps/OmniLib" name="android_packages_apps_OmniLib" remote="omnirom" revision="android-10" />
 
+  <!-- LAST: Remove unused/forked Projects for minimal TWRP -->
+  <include name="remove-minimal.xml" />
 </manifest>
