@@ -240,7 +240,6 @@
     <remove-project name="platform/hardware/qcom/keymaster"/>
 
     <remove-project name="platform/packages/apps/BasicSmsReceiver"/>
-    <remove-project name="platform/packages/apps/Browser2"/>
     <remove-project name="platform/packages/apps/Camera2"/>
     <remove-project name="platform/packages/apps/CarrierConfig"/>
     <remove-project name="platform/packages/apps/CertInstaller"/>
