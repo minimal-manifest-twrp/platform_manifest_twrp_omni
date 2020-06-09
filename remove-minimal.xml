@@ -245,7 +245,6 @@
     <remove-project name="platform/packages/apps/CertInstaller"/>
     <remove-project name="platform/packages/apps/DevCamera"/>
     <remove-project name="platform/packages/apps/Email"/>
-    <remove-project name="platform/packages/apps/ExactCalculator"/>
     <remove-project name="platform/packages/apps/HTMLViewer"/>
     <remove-project name="platform/packages/apps/KeyChain"/>
     <remove-project name="platform/packages/apps/LegacyCamera"/>
@@ -404,6 +403,7 @@
     <remove-project name="android_packages_apps_Dialer"/>
     <remove-project name="android_packages_apps_DocumentsUI"/>
     <!--<remove-project name="android_packages_apps_EmergencyInfo"/>-->
+    <remove-project name="android_packages_apps_ExactCalculator"/>
     <remove-project name="android_packages_apps_Launcher3"/>
     <remove-project name="android_packages_apps_Gallery2"/>
     <remove-project name="android_packages_apps_Messaging"/>
