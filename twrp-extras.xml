@@ -13,5 +13,7 @@
 	
 <!-- Include TeamWin android_system_update_engine to build a good update_engine_sideload -->
     <project path="system/update_engine" name="android_system_update_engine" remote="TeamWin" revision="android-10.0" />
+<!-- Include Teamwin android_hardware_qcom_bootctrl to build a good update_engine_sideload -->
+    <project path="hardware/qcom/bootctrl" name="android_hardware_qcom_bootctrl" remote="TeamWin" revision="android-10.0" />
 </manifest>
 
