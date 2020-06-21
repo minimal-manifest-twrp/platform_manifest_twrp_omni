@@ -424,7 +424,7 @@
     <remove-project name="android_system_bpf"/>
     <remove-project name="android_system_bt"/>
     <remove-project name="android_system_nfc"/>
-    <!--<remove-project name="android_system_update_engine"/>-->
+    <remove-project name="android_system_update_engine"/>
 
 
     <!-- Remove from omni-caf.xml (forked CAF) -->
