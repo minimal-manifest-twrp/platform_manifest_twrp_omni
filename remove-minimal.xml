@@ -237,6 +237,7 @@
     <remove-project name="platform/hardware/google/easel"/>
     <remove-project name="platform/hardware/google/interfaces"/>
     <remove-project name="android_vendor_qcom_opensource_interfaces"/>
+    <remove-project name="platform/hardware/qcom/bootctrl"/>
     <remove-project name="platform/hardware/qcom/keymaster"/>
 
     <remove-project name="platform/packages/apps/BasicSmsReceiver"/>
