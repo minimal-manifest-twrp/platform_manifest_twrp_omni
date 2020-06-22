@@ -62,7 +62,6 @@ Then to build for a device with recovery partition:
 
 Then to build for a device without recovery partition:
 
-<<<<<<< HEAD
      cd <source-dir>; . build/envsetup.sh; brunch <device_name>
 
 ## Private Repositories ##
@@ -80,6 +79,4 @@ You can also build without those repositories if you dont need or
 want the features that are in them. In that case simply remove the include
 
     <include name="omni-private.xml" />
-=======
-     cd <source-dir>; export ALLOW_MISSING_DEPENDENCIES=true; . build/envsetup.sh; lunch omni_<device>-eng; mka bootimage
->>>>>>> Add minimal twrp for 9.0
+ 
