@@ -12,8 +12,15 @@
     <remove-project name="android_system_core"/>
     <project path="system/core" name="android_system_core" remote="TeamWin" revision="android-10.0"/>
     <remove-project name="android_build" />
-    <project path="build/make" name="android_build" remote="TeamWin" revision="android-10" groups="pdk" />
-
+    <project path="build/make" name="android_build" remote="TeamWin" revision="android-10" groups="pdk" >
+        <copyfile src="core/root.mk" dest="Makefile" />
+        <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
+        <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
+        <linkfile src="core" dest="build/core" />
+        <linkfile src="envsetup.sh" dest="build/envsetup.sh" />
+        <linkfile src="target" dest="build/target" />
+        <linkfile src="tools" dest="build/tools" />
+    </project>
 <!-- Include external Magisk repo for repack binaries -->
     <project path="external/magisk-prebuilt" name="external_magisk-prebuilt" remote="TeamWin" revision="master" />
 
