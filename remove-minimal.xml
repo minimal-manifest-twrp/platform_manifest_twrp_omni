@@ -36,7 +36,7 @@
     <remove-project name="platform/external/cmockery"/>
     <remove-project name="platform/external/crcalc"/>
     <remove-project name="platform/external/curl"/>
-    <remove-project name="platform/external/dagger2"/>
+    <!--<remove-project name="platform/external/dagger2"/>-->
     <remove-project name="platform/external/deqp"/>
     <remove-project name="platform/external/desugar"/>
     <!--<remove-project name="platform/external/devlib"/>-->
@@ -80,7 +80,7 @@
     <remove-project name="platform/external/iputils"/>
     <remove-project name="platform/external/iw"/>
     <remove-project name="platform/external/jacoco"/>
-    <remove-project name="platform/external/jarjar"/>
+    <!--<remove-project name="platform/external/jarjar"/>-->
     <remove-project name="platform/external/javasqlite"/>
     <!--<remove-project name="platform/external/javassist"/>-->
     <remove-project name="platform/external/jcommander"/>
@@ -90,7 +90,7 @@
     <remove-project name="platform/external/jsilver"/>
     <remove-project name="platform/external/jsmn"/>
     <!--<remove-project name="platform/external/jsoncpp"/>-->
-    <remove-project name="platform/external/jsr305"/>
+    <!--<remove-project name="platform/external/jsr305"/>-->
     <remove-project name="platform/external/jsr330"/>
     <remove-project name="platform/external/junit"/>
     <remove-project name="platform/external/junit-params"/>
@@ -117,8 +117,8 @@
     <remove-project name="platform/external/libogg"/>
     <remove-project name="platform/external/libopus"/>
     <remove-project name="platform/external/libpcap"/>
-    <remove-project name="platform/external/libphonenumber"/>
-    <remove-project name="platform/external/libtextclassifier"/>
+    <!--<remove-project name="platform/external/libphonenumber"/>-->
+    <!--<remove-project name="platform/external/libtextclassifier"/>-->
     <remove-project name="platform/external/libusb"/>
     <remove-project name="platform/external/libusb-compat"/>
     <!--<remove-project name="platform/external/libvncserver"/>-->
@@ -145,11 +145,11 @@
     <remove-project name="platform/external/neven"/>
     <remove-project name="platform/external/nfacct"/>
     <remove-project name="platform/external/nist-pkits"/>
-    <remove-project name="platform/external/nist-sip"/>
+    <!--<remove-project name="platform/external/nist-sip"/>-->
     <remove-project name="platform/external/noto-fonts"/>
     <remove-project name="platform/external/oauth"/>
     <remove-project name="platform/external/objenesis"/>
-    <remove-project name="platform/external/okhttp"/>
+    <!--<remove-project name="platform/external/okhttp"/>-->
     <remove-project name="platform/external/owasp/sanitizer"/>
     <remove-project name="platform/external/parameter-framework"/>
     <remove-project name="platform/external/pdfium"/>
@@ -178,7 +178,7 @@
     <remove-project name="platform/external/stressapptest"/>
     <remove-project name="platform/external/swiftshader"/>
     <!--<remove-project name="platform/external/syslinux"/>-->
-    <remove-project name="platform/external/tagsoup"/>
+    <!--<remove-project name="platform/external/tagsoup"/>-->
     <remove-project name="platform/external/tcpdump"/>
     <remove-project name="platform/external/testng"/>
     <!--<remove-project name="platform/external/timezonepicker-support"/>-->
@@ -203,7 +203,7 @@
     <!--<remove-project name="platform/external/x264"/>-->
     <!--<remove-project name="platform/external/xmlrpcpp"/>-->
     <remove-project name="platform/external/xmp_toolkit"/>
-    <remove-project name="platform/external/zopfli"/>
+    <!--<remove-project name="platform/external/zopfli"/>-->
     <remove-project name="platform/external/zxing"/>
 
     <remove-project name="platform/frameworks/compile/mclinker"/>
@@ -328,13 +328,13 @@
     <remove-project name="platform/prebuilts/gdb/darwin-x86"/>
     <remove-project name="platform/prebuilts/gdb/linux-x86"/>
     <remove-project name="platform/prebuilts/go/darwin-x86"/>
-    <remove-project name="platform/prebuilts/gradle-plugin"/>
+    <!--<remove-project name="platform/prebuilts/gradle-plugin"/>-->
     <!--<remove-project name="platform/prebuilts/libs/libedit"/>-->
     <remove-project name="platform/prebuilts/maven_repo/android"/>
     <remove-project name="platform/prebuilts/maven_repo/bumptech"/>
     <remove-project name="platform/prebuilts/python/darwin-x86/2.7.5"/>
     <remove-project name="platform/prebuilts/qemu-kernel"/>
-    <remove-project name="platform/prebuilts/tools"/>
+    <!--<remove-project name="platform/prebuilts/tools"/>-->
 
     <remove-project name="platform/system/ca-certificates"/>
     <remove-project name="platform/system/connectivity/wificond"/>
@@ -423,7 +423,7 @@
     <remove-project name="android_packages_services_Telephony"/>
 
     <remove-project name="android_system_bpf"/>
-    <remove-project name="android_system_bt"/>
+    <!--<remove-project name="android_system_bt"/>-->
     <remove-project name="android_system_nfc"/>
     <remove-project name="android_system_update_engine"/>
 
