@@ -451,7 +451,7 @@
     <remove-project name="android_vendor_interfaces"/>
 
     <remove-project name="platform/tools/asuite"/>
-    <remove-project name="platform/hardware/google/pixel"/>
+    <!-- <remove-project name="platform/hardware/google/pixel"/> -->
 
     <!-- LAST: Add/Replace repos and particular directories needed by TWRP -->
     <include name="twrp-extras.xml"/>
