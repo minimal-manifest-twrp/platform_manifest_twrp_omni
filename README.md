@@ -58,4 +58,4 @@ Then to sync up:
 
 Then to build:
 
-     cd <source-dir>; . build/envsetup.sh; lunch omni_<device>-eng; mka recoveryimage
+     cd <source-dir>; . build/envsetup.sh; lunch omni_<device>-eng; LANG=C mka recoveryimage
