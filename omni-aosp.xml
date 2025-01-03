@@ -40,7 +40,7 @@
   <project path="external/toybox" name="android_external_toybox" remote="omnirom" revision="android-10" />
 
   <project path="frameworks/av" name="android_frameworks_av" remote="omnirom" revision="android-10" />
-  <project path="frameworks/base" name="android_frameworks_base" remote="omnirom" revision="android-10" />
+  <project path="frameworks/base" name="android_frameworks_base_old" remote="omnirom" revision="android-10" />
   <project path="frameworks/native" name="android_frameworks_native" remote="omnirom" revision="android-10" />
   <project path="frameworks/opt/chips" name="android_frameworks_opt_chips" remote="omnirom" revision="android-10" />
   <project path="frameworks/opt/telephony" name="android_frameworks_opt_telephony" remote="omnirom" revision="android-10" />
