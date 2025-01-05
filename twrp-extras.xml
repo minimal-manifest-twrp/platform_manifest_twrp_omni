@@ -32,7 +32,7 @@
 
 <!-- Use TeamWin boringssl repo - needed for arm devices requiring entropy for decryption -->
     <remove-project name="platform/external/boringssl" />
-    <project path="external/boringssl" name="external_boringssl" remote="TeamWin" revision="android-8.1" />
+    <project path="external/boringssl" name="android_external_boringssl" remote="TeamWin" revision="android-8.1" />
 
 <!-- Include external Magisk repo for repack binaries -->
     <project path="external/magisk-prebuilt" name="external_magisk-prebuilt" remote="TeamWin" revision="android-8.1" />
