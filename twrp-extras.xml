@@ -13,7 +13,7 @@
     <project path="bootable/recovery" name="android_bootable_recovery" remote="TeamWin" revision="android-10.0" />
 
 <!-- Use TeamWin repos for full recovery compatibility -->
-    <remove-project name="android_system_core"/>
+    <remove-project name="android_system_core_old"/>
     <project path="system/core" name="android_system_core" remote="TeamWin" revision="android-10.0" />
 
     <remove-project name="android_vendor_omni"/>
