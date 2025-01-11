@@ -15,7 +15,7 @@
   <remove-project name="android_external_tinyalsa" />
   <remove-project name="android_external_tinycompress" />
   <remove-project name="android_frameworks_av" />
-  <remove-project name="android_frameworks_base" />
+  <remove-project name="android_frameworks_base_old" />
   <remove-project name="android_frameworks_ex" />
   <remove-project name="android_frameworks_opt_colorpicker" />
   <remove-project name="android_frameworks_opt_net_ims" />
